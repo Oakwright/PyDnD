@@ -514,6 +514,8 @@ class Roll(object):
 class RollStats(object):
 	
 	def __init__(self, method: str=None):
+		if method is None:
+			method = 'standard'
 		self.method = method
 
 	def stat_roller(self):
