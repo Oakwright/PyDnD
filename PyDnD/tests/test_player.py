@@ -37,11 +37,11 @@ class TestPlayer(unittest.TestCase):
             1000, self.newPlayer.experience
         )  # Current, experience after leveling up
         self.assertEqual(
-            3000, self.newPlayer.nextLvlExperience
-        )  # 3000 Experience is required to get to level 3
-        self.assertEqual(
             2, self.newPlayer.level
         )  # newPlayer.level is automatically increased when XP threshold increases
+        self.assertEqual(
+            3000, self.newPlayer.nextLvlExperience
+        )  # 3000 Experience is required to get to level 3
 
 
 if __name__ == "__main__":
