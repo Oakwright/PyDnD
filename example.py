@@ -8,7 +8,7 @@ if __name__ == '__main__':
 		
 	# newPlayer is created, lets display some stats
 	print( "Name:" + newPlayer.name )
-	print( "Age: " +newPlayer.age)
+	print( "Age: " + newPlayer.age)
 	print( "Gender:" + newPlayer.gender )
 	print( "Description: " + newPlayer.description )
 	print( "Biography: " + newPlayer.biography )
